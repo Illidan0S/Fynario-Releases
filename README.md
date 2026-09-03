@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/fynario-icon.png" alt="Fynario icon" width="128">
+</p>
+
 # Fynario
 
 **Fynario** is a personal portfolio management app for Android, designed to help users track investments, cash, recurring investment plans, staking rewards, returns, and portfolio history in one place.
@@ -6,82 +10,63 @@
 
 ## Download
 
-Official Android builds of Fynario are distributed through the **Releases** section of this repository.
+**Current stable version:** [Fynario 0.20.0](https://github.com/Illidan0S/Fynario-Releases/releases/tag/v0.20.0)
+**Build:** 2000
 
-**Latest stable release:** [Fynario 0.12.0](https://github.com/Illidan0S/Fynario-Releases/releases/tag/v0.12.0)
+Download the Android installer:
 
-For a normal Android installation, download the `.apk` file attached to the latest stable release.
+**[Fynario-0.20.0-android.apk](https://github.com/Illidan0S/Fynario-Releases/releases/download/v0.20.0/Fynario-0.20.0-android.apk)**
 
-> `fynario-update.json` is update metadata used internally by Fynario. It is **not** the application installer.
+> `fynario-update.json` is metadata used internally by Fynario's update checker. It is **not** the application installer.
 
 ## Install on Android
 
-1. Open the latest stable release.
-2. Download the Fynario `.apk` file.
-3. Open the downloaded file on your Android device.
-4. If Android asks for permission, allow your browser or file manager to install apps from that source.
-5. Confirm the installation.
+1. Download `Fynario-0.20.0-android.apk` from the current stable release.
+2. Open the downloaded file on your Android device.
+3. If Android asks for permission, allow your browser or file manager to install apps from that source.
+4. Confirm the installation.
 
-Future updates can be checked directly from:
-
-**Fynario → Settings → Updates**
-
-Fynario does not silently install updates. You remain in control of when an update is installed.
+Fynario does not silently install updates. Updates can be checked from **Fynario → Settings → Updates**, and you remain in control of installation.
 
 ## Main features
 
-Current Fynario Mobile functionality includes:
-
-- portfolio and position tracking;
-- purchases, sales, deposits, withdrawals, and transfers;
-- cash management;
-- recurring investment plans (PAC);
-- staking management and staking rewards;
-- cash remuneration and interest tracking;
-- unified returns history;
-- portfolio charts and historical ranges;
-- backup and restore between supported Fynario environments;
-- light, dark, and system themes;
-- built-in stable update checks.
-
-Fynario is still evolving, so features and user experience may change between releases.
+- Portfolio and position tracking
+- Purchases, sales, deposits, withdrawals, and transfers
+- Cash management and remuneration tracking
+- Recurring investment plans (PAC)
+- Staking management and staking rewards
+- Portfolio charts and historical ranges
+- Backup and restore between supported Fynario environments
+- Light, dark, and system themes
+- Built-in stable update checks
 
 ## Official stable release channel
 
-This repository is the **official public stable release channel** for Fynario.
+This repository is the official public stable release channel for Fynario. The source code is maintained privately and is not published here.
 
-Fynario Mobile checks the latest stable GitHub release and reads the `fynario-update.json` asset to determine whether a newer compatible version is available.
+Fynario Mobile checks the latest stable GitHub release and reads its `fynario-update.json` asset to determine whether a newer compatible version is available. A release contains a digitally signed APK for manual installation, update metadata, and concise release notes.
 
-A stable Android release can include:
+## Security and integrity
 
-- a digitally signed Android APK for manual installation;
-- `fynario-update.json` for Fynario's built-in update checker;
-- release notes describing relevant changes.
+Only install Fynario packages obtained from this repository or, in the future, from the official Google Play listing. Do not install APKs presented as Fynario by unrelated mirrors or third-party download sites.
 
-The Fynario source code is maintained privately and is not published in this repository.
+**Fynario 0.20.0 APK SHA-256:**
 
-## Security
+`5E7385C49DF3F227020EA29B9BB7BFC8874C02B4DD0DB4DD125A74BF742CFC48`
 
-Only install Fynario packages obtained from this repository or, in the future, from the official Google Play listing.
-
-Official Android builds are digitally signed. Do not install APKs presented as Fynario from unrelated mirrors or third-party download sites.
-
-The SHA-256 checksum of each public APK is included in its release notes so that the downloaded file can be independently verified.
+Official Android builds are digitally signed. The checksum above can be used to verify the downloaded APK independently.
 
 This repository must never contain signing keys, passwords, private databases, backups, credentials, or other secrets.
 
 ## Versioning
 
-Fynario Android releases use:
-
-- a human-readable version such as `0.12.0`;
-- an Android build/version code such as `1200`.
-
-The Android version code increases for newer installable releases.
+- Version: `0.20.0`
+- Android build/version code: `2000`
+- Installer: `Fynario-0.20.0-android.apk`
 
 ## Google Play
 
-A Google Play release is planned for the future. Until then, this repository is the official public channel for stable Android builds and update metadata.
+A Google Play release is planned for the future. Fynario is **not currently available on Google Play**. Until then, this repository remains the official public channel for stable Android builds and update metadata.
 
 ---
 
@@ -93,17 +78,25 @@ Il progetto è ancora in sviluppo attivo. Le versioni pubblicate qui sono build 
 
 ### Download e installazione
 
-1. Apri la sezione **Releases** di questo repository.
-2. Seleziona l'ultima versione stabile.
-3. Scarica il file `.apk` di Fynario.
-4. Apri il file sul dispositivo Android.
-5. Se richiesto, autorizza il browser o il file manager a installare app da quella fonte.
-6. Conferma l'installazione.
+**Versione stabile corrente:** [Fynario 0.20.0](https://github.com/Illidan0S/Fynario-Releases/releases/tag/v0.20.0)
+**Build:** 2000
 
-Il file `fynario-update.json` **non è l'app**: serve esclusivamente al sistema integrato di controllo aggiornamenti.
+Scarica l'installer Android:
 
-Dopo l'installazione, gli aggiornamenti possono essere controllati da:
+**[Fynario-0.20.0-android.apk](https://github.com/Illidan0S/Fynario-Releases/releases/download/v0.20.0/Fynario-0.20.0-android.apk)**
 
-**Fynario → Impostazioni → Aggiornamenti**
+1. Apri il file scaricato sul dispositivo Android.
+2. Se richiesto, autorizza il browser o il file manager a installare app da quella fonte.
+3. Conferma l'installazione.
 
-Per sicurezza, installa Fynario esclusivamente dalle release ufficiali di questo repository o, in futuro, dalla pagina ufficiale Google Play.
+Il file `fynario-update.json` **non è l'app**: contiene esclusivamente i metadati usati dal controllo aggiornamenti integrato.
+
+Gli aggiornamenti possono essere controllati da **Fynario → Impostazioni → Aggiornamenti**. Fynario non installa aggiornamenti senza il consenso dell'utente.
+
+### Sicurezza e integrità
+
+Installa Fynario esclusivamente dalle release ufficiali di questo repository o, in futuro, dalla pagina ufficiale Google Play. Fynario non è attualmente disponibile sul Play Store.
+
+**SHA-256 dell'APK Fynario 0.20.0:**
+
+`5E7385C49DF3F227020EA29B9BB7BFC8874C02B4DD0DB4DD125A74BF742CFC48`
