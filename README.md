@@ -10,33 +10,34 @@
 
 ## Download
 
-**Current stable version:** [Fynario 0.30.1](https://github.com/Illidan0S/Fynario-Releases/releases/tag/v0.30.1)<br>
-**Build:** 3001
+**Current stable version:** [Fynario 0.31.0](https://github.com/Illidan0S/Fynario-Releases/releases/tag/v0.31.0)<br>
+**Build:** 3100
 
 Download the Android installer:
 
-**[Fynario-0.30.1-android.apk](https://github.com/Illidan0S/Fynario-Releases/releases/download/v0.30.1/Fynario-0.30.1-android.apk)**
+**[Fynario-0.31.0-android.apk](https://github.com/Illidan0S/Fynario-Releases/releases/download/v0.31.0/Fynario-0.31.0-android.apk)**
 
 > `fynario-update.json` is metadata used internally by Fynario's update checker. It is **not** the application installer.
 
 ## Install on Android
 
-1. Download `Fynario-0.30.1-android.apk` from the current stable release.
+1. Download `Fynario-0.31.0-android.apk` from the current stable release.
 2. Open the downloaded file on your Android device.
 3. If Android asks for permission, allow your browser or file manager to install apps from that source.
 4. Confirm the installation.
 
 Fynario never installs updates silently. Updates can be checked from **Fynario → Settings → Updates**. Compatible releases can be downloaded, verified, and handed off to the Android installer from inside Fynario; the final installation always remains under your control.
 
-## What's new in 0.30.1
+## What's new in 0.31.0
 
-- Added recurring cash flows for income, with one-time or recurring payments for salary, winnings, gifts, refunds and other incoming funds.
-- Added management of active recurring payments, including editing, suspension, reactivation and next scheduled execution.
-- Improved staking scheduling and reward handling, including clearer staking reward details.
-- Simplified the Home and Movements experience with a cleaner navigation flow.
-- Redesigned the Movements history with clearer sections, a compact five-item view, expandable history and grouping by month and day.
-- Improved reliability of intraday portfolio charts and handling of sparse market-price series.
-- Various stability, data-quality and user-interface improvements.
+- Improved staking reward management.
+- Estimated rewards are now clearly separated from rewards actually credited.
+- Recorded staking rewards can be edited directly without deleting and recreating them.
+- Simplified staking detail screen, with improved reward history and direct navigation to the related staking agreement.
+- Improved reliability of crypto historical data retrieval.
+- Better handling of temporary data-provider rate limits, with missing data recovered automatically in the background.
+- Reduced cases of prolonged historical loading, with more consistent SOL and crypto updates.
+- Various stability and internal improvements.
 
 ## Main features
 
@@ -62,9 +63,9 @@ Fynario Mobile checks the latest stable GitHub release and reads its `fynario-up
 
 Only install Fynario packages obtained from this repository or, in the future, from the official Google Play listing. Do not install APKs presented as Fynario by unrelated mirrors or third-party download sites.
 
-**Fynario 0.30.1 APK SHA-256:**
+**Fynario 0.31.0 APK SHA-256:**
 
-`559AA629272DED6C56DF7E26ECE25CD277650A935F1BC84D9BCEA3B8A5DBC092`
+`32420E25A531E7572297421AB8978063713AC7674CB1D83F45C9FD59E9C57C0E`
 
 Official Android builds are digitally signed. The checksum above can be used to verify the downloaded APK independently. Fynario also validates compatible package and version metadata before handing an update to Android.
 
@@ -72,9 +73,9 @@ This repository must never contain signing keys, passwords, private databases, b
 
 ## Versioning
 
-- Version: `0.30.1`
-- Android build/version code: `3001`
-- Installer: `Fynario-0.30.1-android.apk`
+- Version: `0.31.0`
+- Android build/version code: `3100`
+- Installer: `Fynario-0.31.0-android.apk`
 - Release channel: `stable`
 
 ## Google Play
@@ -91,12 +92,12 @@ A Google Play release is planned for the future. Fynario is **not currently avai
 
 ### Download e installazione
 
-**Versione stabile corrente:** [Fynario 0.30.1](https://github.com/Illidan0S/Fynario-Releases/releases/tag/v0.30.1)<br>
-**Build:** 3001
+**Versione stabile corrente:** [Fynario 0.31.0](https://github.com/Illidan0S/Fynario-Releases/releases/tag/v0.31.0)<br>
+**Build:** 3100
 
 Scarica l'installer Android:
 
-**[Fynario-0.30.1-android.apk](https://github.com/Illidan0S/Fynario-Releases/releases/download/v0.30.1/Fynario-0.30.1-android.apk)**
+**[Fynario-0.31.0-android.apk](https://github.com/Illidan0S/Fynario-Releases/releases/download/v0.31.0/Fynario-0.31.0-android.apk)**
 
 1. Apri il file scaricato sul dispositivo Android.
 2. Se richiesto, autorizza il browser o il file manager a installare app da quella fonte.
@@ -106,15 +107,16 @@ Il file `fynario-update.json` **non è l'app**: contiene esclusivamente i metada
 
 Fynario non installa mai aggiornamenti senza conferma. Gli aggiornamenti possono essere controllati da **Fynario → Impostazioni → Aggiornamenti**. Per le release compatibili, Fynario può scaricare e verificare l'APK e poi aprire il flusso di installazione Android; la conferma finale resta sempre all'utente.
 
-### Novità della 0.30.1
+### Novità della 0.31.0
 
-- Aggiunta la gestione delle entrate ricorrenti, con scelta tra pagamento una tantum o ricorrente per stipendi, vincite, regali, rimborsi e altri accrediti.
-- Aggiunta la gestione delle ricorrenze attive, con modifica, sospensione, riattivazione e visualizzazione della prossima esecuzione.
-- Migliorata la gestione dello staking e dei reward, con dettagli più chiari per gli accrediti staking.
-- Semplificata la navigazione Home e Movimenti.
-- Riorganizzata la cronologia Movimenti con sezioni più chiare, visualizzazione iniziale degli ultimi 5 movimenti, espansione completa e raggruppamento per mese e giorno.
-- Migliorata l'affidabilità dei grafici intraday e la gestione delle serie di prezzo sparse.
-- Vari miglioramenti di stabilità, qualità dei dati e interfaccia.
+- Migliorata la gestione dei reward staking.
+- I reward stimati sono ora separati chiaramente dagli accrediti realmente ricevuti.
+- I reward registrati possono essere modificati direttamente senza doverli eliminare e ricreare.
+- Semplificata la schermata di dettaglio staking, con cronologia reward migliorata e navigazione diretta verso lo staking associato.
+- Migliorata l'affidabilità del recupero dello storico delle criptovalute.
+- Gestiti meglio i limiti temporanei del provider dati, con recupero automatico dei dati mancanti in background.
+- Ridotti i casi di caricamento storico prolungato e migliorata la continuità degli aggiornamenti SOL e delle altre crypto.
+- Ulteriori correzioni e miglioramenti interni di stabilità.
 
 ### Funzioni principali
 
@@ -140,17 +142,17 @@ Fynario Mobile controlla l'ultima release stabile e legge il relativo asset `fyn
 
 Installa Fynario esclusivamente dalle release ufficiali di questo repository o, in futuro, dalla pagina ufficiale Google Play. Non installare APK distribuiti da mirror o fonti di terze parti non autorizzate.
 
-**SHA-256 dell'APK Fynario 0.30.1:**
+**SHA-256 dell'APK Fynario 0.31.0:**
 
-`559AA629272DED6C56DF7E26ECE25CD277650A935F1BC84D9BCEA3B8A5DBC092`
+`32420E25A531E7572297421AB8978063713AC7674CB1D83F45C9FD59E9C57C0E`
 
 Le build Android ufficiali sono firmate digitalmente. Il checksum permette di verificare autonomamente l'integrità dell'APK; Fynario controlla inoltre pacchetto e versione prima di passare un aggiornamento all'installer Android.
 
 ### Versionamento
 
-- Versione: `0.30.1`
-- Build/version code Android: `3001`
-- Installer: `Fynario-0.30.1-android.apk`
+- Versione: `0.31.0`
+- Build/version code Android: `3100`
+- Installer: `Fynario-0.31.0-android.apk`
 - Canale: `stable`
 
 ### Google Play
